@@ -1,0 +1,75 @@
+/*
+  device = laptops, desktops
+  screen = B/w 1025px x 1280px
+ */
+ @media only screen and (min-width: 1024px) {
+}
+
+/*
+  device = tablets
+  screen = B/w 768px x 1024px
+ */
+@media only screen and (min-width: 640px) and (max-width: 1023px) {
+    #logo-box {
+        background-color: #cc001b;
+        width: 100%;
+    }
+    #suscribite {
+        margin-left: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: #000000;
+        font-family: 'Velino Sans Book';
+        font-size: 14px;
+        letter-spacing: 1px;
+        color: #ffffff;
+        text-decoration: none;
+    }
+}
+
+/*
+  device = mobiles
+  screen = B/w 320px x 768px
+ */
+@media only screen and (max-width: 639px) {
+    nav {
+        height: 50px;
+        margin-top: 2px;
+        padding-left: 30px;
+        background-color: #000000;
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+    }
+    #logo-box {
+        background-color: #cfcfcf;
+        width: 100%;
+    }
+    #menu {
+        filter: invert(100%);
+    }
+    #logo-header {
+        height: 30px;
+        margin-left: 50px;
+        filter: invert(100%);
+    }
+    #suscribite {
+        margin-left: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: #cc001b;
+        font-family: 'Velino Sans Book';
+        font-size: 14px;
+        letter-spacing: 1px;
+        color: #ffffff;
+        text-decoration: none;
+    }
+}

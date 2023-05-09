@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Velino Sans Bold';
+    src: url(./fonts/Velino-Sans-Bold.woff2);
+}
+
+@font-face {
+    font-family: 'Velino Sans Book';
+    src: url(./fonts/Velino-Sans-Book.woff2);
+}
+
+@font-face {
+    font-family: 'Velino Display Book';
+    src: url(./fonts/VelinoDisplay-Book.otf);
+}
+
+@font-face {
+    font-family: 'Velino Display Light';
+    src: url(./fonts/VelinoDisplay-Light.otf);
+}
+
+@font-face {
+    font-family: 'Velino Headline Book';
+    src: url(./fonts/VelinoHeadline-Book.woff2);
+}
+
+@font-face {
+    font-family: 'Velino Text Book';
+    src: url(./fonts/VelinoText-Book.woff2);
+}
