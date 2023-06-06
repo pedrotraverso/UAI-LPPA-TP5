@@ -69,6 +69,7 @@ h1 {
     font: 46px 'Velino Text Book';
     line-height: 48px;
     margin-bottom: 45px;
+    text-align: center;
 }
 
 h2 {
@@ -182,22 +183,34 @@ footer {
 }
 
 main {
-	max-width: 800px;
+    display: flex;
+    justify-content: center;
+	/* max-width: 800px; */
+	/* width: 90%; */
+	margin: 25px;
+	/* padding: 40px; */
+}
+
+#main-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
 	width: 90%;
 	margin: auto;
 	padding: 40px;
 }
 
-main h1 {
-    text-align: center;
+#main-form h1 {
     font: 46px 'Velino Text Book';
     /* line-height: 48px; */
+    grid-column: span 2;
+    align-self: center;
 }
 
 .formulario {
+    /* margin: 25px; */
+	/* padding: 40px; */
 	/* margin: 0 300px; */
-    justify-content: center;
-    align-items: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
@@ -337,20 +350,4 @@ main h1 {
 
 .formulario__grupo-incorrecto .formulario__input {
 	border: 3px solid #bb2929;
-}
-
-@media screen and (max-width: 800px) {
-	.formulario {
-		grid-template-columns: 1fr;
-	}
-
-	.formulario__grupo-terminos, 
-	.formulario__mensaje,
-	.formulario__grupo-btn-enviar {
-		grid-column: 1;
-	}
-
-	.formulario__btn {
-		width: 100%;
-	}
 }

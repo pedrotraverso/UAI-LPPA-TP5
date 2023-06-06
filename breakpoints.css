@@ -39,4 +39,18 @@
     #logo-header {
         filter: invert(100%);
     }
+
+    section {
+        padding: 0;
+    }
+
+	.formulario {
+		grid-template-columns: 1fr;
+	}
+
+	.formulario__grupo-terminos, 
+	.formulario__mensaje,
+	.formulario__grupo-btn-enviar {
+		grid-column: 1;
+	}
 }
