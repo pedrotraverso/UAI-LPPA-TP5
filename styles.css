@@ -185,10 +185,7 @@ footer {
 main {
     display: flex;
     justify-content: center;
-	/* max-width: 800px; */
-	/* width: 90%; */
 	margin: 25px;
-	/* padding: 40px; */
 }
 
 #main-form {
@@ -202,19 +199,14 @@ main {
 
 #main-form h1 {
     font: 46px 'Velino Text Book';
-    /* line-height: 48px; */
     grid-column: span 2;
     align-self: center;
 }
 
 .formulario {
-    /* margin: 25px; */
-	/* padding: 40px; */
-	/* margin: 0 300px; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
-    /* grid-template-rows: auto; */
 }
 
 .formulario__label {
@@ -223,14 +215,10 @@ main {
 	padding: 10px 0;
 	cursor: pointer;
     font: 20px 'Velino Text Book';
-    /* line-height: 31px; */
-    /* grid-row: 1; Colocar en la primera fila del grid */
 }
 
 .formulario__grupo-input {
 	position: relative;
-    /* padding: 0 10px;
-    grid-row: 2; Colocar en la segunda fila del grid */
 }
 
 .formulario__input {
@@ -249,7 +237,6 @@ main {
 .formulario__input:focus {
 	border: 3px solid #0075FF;
 	outline: none;
-	/* box-shadow: 3px 0px 30px rgba(163,163,163, 0.4); */
 }
 
 .formulario__input-error {
@@ -284,11 +271,6 @@ main {
 
 .formulario__mensaje {
     font-size: 14px;
-	/* height: 45px; */
-	/* line-height: 45px; */
-	/* background: #F66060; */
-	/* padding: 0 15px; */
-	/* border-radius: 3px; */
 	display: none;
     text-align: center;
     color: #bb2929;

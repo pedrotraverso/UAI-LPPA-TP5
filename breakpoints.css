@@ -1,41 +1,44 @@
 /*
-  device = laptops, desktops
-  screen = B/w 1025px x 1280px
-  MacBook Pro (Retina, Mid 2012) = width: 2880px x height:1800px
+    device = laptops, desktops
+    screen = B/w 1025px x 1280px
+    MacBook Pro (Retina, Mid 2012) = width: 2880px x height:1800px
  */
-@media only screen and (min-width: 1024px) {
-}
+@media only screen and (min-width: 1024px) {}
 
 /*
-  device = tablets
-  screen = B/w 768px x 1024px
+    device = tablets
+    screen = B/w 768px x 1024px
  */
 @media only screen and (min-width: 640px) and (max-width: 1023px) {
     #logo-box {
         background-color: #cc001b;
-        
+
     }
+
     #suscribite {
         background-color: #000000;
     }
 }
 
 /*
-  device = mobiles
-  screen = B/w 320px x 768px
-  iPhone 11 Pro Max = width: 1242px x height:2688px
+    device = mobiles
+    screen = B/w 320px x 768px
+    iPhone 11 Pro Max = width: 1242px x height:2688px
  */
 @media only screen and (max-width: 639px) {
     nav {
         background-color: #000000;
         color: #ffffff;
     }
+
     #logo-box {
         background-color: #cfcfcf;
     }
+
     #menu {
         filter: invert(100%);
     }
+
     #logo-header {
         filter: invert(100%);
     }
@@ -44,13 +47,13 @@
         padding: 0;
     }
 
-	.formulario {
-		grid-template-columns: 1fr;
-	}
+    .formulario {
+        grid-template-columns: 1fr;
+    }
 
-	.formulario__grupo-terminos, 
-	.formulario__mensaje,
-	.formulario__grupo-btn-enviar {
-		grid-column: 1;
-	}
+    .formulario__grupo-terminos,
+    .formulario__mensaje,
+    .formulario__grupo-btn-enviar {
+        grid-column: 1;
+    }
 }
