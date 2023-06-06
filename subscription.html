@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clarín</title>
+    <link rel="icon" href="img/clarin-favicon.svg" type="image/svg" sizes="192x192">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="breakpoints.css">
+</head>
+<body>
+    <header>
+        <div id="date-box">
+            <ul>Martes, 2 de Mayo de 2023</ul>
+        </div>
+        <div id="logo-box">
+            <img id="menu" src="img/hamburger-icon.svg" alt="menu"/>
+            <img id="logo-header" src="img/clarin-logo-2.svg" alt="logo"/>
+        </div>
+        <nav>
+            <ul>Subscripción</ul>
+        </nav>
+    </header>
+    <main>
+        <h1 id="form-title">HOLA</h1>
+        <form action="" class="formulario" id="formulario">
+			<div class="formulario__grupo" id="grupo__nombre">
+				<label for="nombre" class="formulario__label">Nombre completo</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Debe tener al menos 6 letras y un espacio.</p>
+			</div>
+			<div class="formulario__grupo" id="grupo__email">
+				<label for="email" class="formulario__label">Email</label>
+				<div class="formulario__grupo-input">
+					<input type="email" class="formulario__input" name="email" id="email" placeholder="">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Debe tener un formato de email válido.</p>
+			</div>
+			<div class="formulario__grupo" id="grupo__contrasena">
+				<label for="contrasena" class="formulario__label">Contraseña</label>
+				<div class="formulario__grupo-input">
+					<input type="password" class="formulario__input" name="contrasena" id="contrasena">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Debe tener al menos 8 caracteres, formados por letras y números.</p>
+			</div>
+			<div class="formulario__grupo" id="grupo__contrasena2">
+				<label for="contrasena2" class="formulario__label">Repetir contraseña</label>
+				<div class="formulario__grupo-input">
+					<input type="password" class="formulario__input" name="contrasena2" id="contrasena2">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Las contraseñas no coinciden.</p>
+			</div>
+            <div class="formulario__grupo" id="grupo__edad">
+				<label for="edad" class="formulario__label">Edad</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="edad" id="edad" placeholder="">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Debe ser un número entero mayor o igual a 18.</p>
+			</div>
+			<div class="formulario__grupo" id="grupo__telefono">
+				<label for="telefono" class="formulario__label">Teléfono</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Debe ser un número de al menos 7 dígitos, no aceptar espacios, guiones ni paréntesis.</p>
+			</div>
+            <div class="formulario__grupo" id="grupo__direccion">
+				<label for="direccion" class="formulario__label">Dirección</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="direccion" id="direccion" placeholder="">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Debe tener al menos 5 caracteres, con letras, números y un espacio en el medio.</p>
+			</div>
+            <div class="formulario__grupo" id="grupo__ciudad">
+				<label for="ciudad" class="formulario__label">Ciudad</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="ciudad" id="ciudad" placeholder="">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Debe tener al menos 3 caracteres.</p>
+			</div>
+            <div class="formulario__grupo" id="grupo__cp">
+				<label for="cp" class="formulario__label">Código Postal</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="cp" id="cp" placeholder="">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Debe tener al menos 3 caracteres.</p>
+			</div>
+            <div class="formulario__grupo" id="grupo__dni">
+				<label for="dni" class="formulario__label">DNI</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="dni" id="dni" placeholder="">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Debe ser un número de 7 u 8 dígitos.</p>
+			</div>
+			<div class="formulario__grupo" id="grupo__terminos">
+				<label class="formulario__label">
+					<input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
+					Acepto los términos y condiciones
+				</label>
+			</div>
+			<div class="formulario__mensaje" id="formulario__mensaje">
+				<p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor completar el formulario correctamente. </p>
+			</div>
+			<div class="formulario__grupo formulario__grupo-btn-enviar">
+				<button type="submit" class="formulario__btn">Enviar</button>
+				<p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
+			</div>
+		</form>
+    </main>
+    <script src="./scripts.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <footer>
+        <hr class="double"></hr>
+        <div>
+            <img id="logo-footer" src="img/clarin-logo-3.svg" alt="logo"/>
+        </div>
+        <a id="articulo-original" href="https://www.clarin.com/espectaculos/ricardo-darin-confirmo-protagonizara-eternauta-netflix-proyecto-pasara-desapercibido-_0_fgqSZYRmtx.html" target="_blank">Artículo original</a>
+        <small id="copyright">Copyright &copy; Diario Clarín</small>
+    </footer>
+</body>
+</html>
